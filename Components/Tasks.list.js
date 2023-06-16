@@ -3,7 +3,6 @@ import { MdOutlineDelete } from 'react-icons/md'
 import { useDispatch, useSelector } from 'react-redux'
 import { removeToda, selectTasks, editToda } from '@/Redux/slices/Task.slice'
 import { selectFiltered } from '@/Redux/slices/Filter.tasks.slice'
-import { useState } from 'react'
 
 function Taskslist() {
 
